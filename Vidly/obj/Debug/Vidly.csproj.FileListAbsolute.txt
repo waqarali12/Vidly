@@ -79,3 +79,10 @@ C:\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.VidlyInitialModel.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToNewsletter.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMembershipTypes.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
