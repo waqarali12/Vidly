@@ -17,7 +17,7 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int id)
         {
-            var customer = GetCustomers().SingleOrDefault(c => c.Id == id);
+            var customer = GetCustomers().SingleOrDefault(c => c.Id == id);//var customer = (from cust in GetCustomers() where cust.Id == id select cust).SingleOrDefault();
             if (customer == null)
                 return HttpNotFound();
             return View(customer);
