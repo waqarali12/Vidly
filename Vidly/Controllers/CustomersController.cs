@@ -21,14 +21,14 @@ namespace Vidly.Controllers
         }
         public ViewResult Index()
         {
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();//Eager loading Include(c => c.MembershipType)
             return View(customers);
         }
 
 
         public ActionResult Details(int id)
         {
-            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);//var customer = (from cust in GetCustomers() where cust.Id == id select cust).SingleOrDefault();
+            var customer = _context.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);//var customer = (from cust in GetCustomers() where cust.Id == id select cust).SingleOrDefault();
             if (customer == null)
                 return HttpNotFound();
             return View(customer);

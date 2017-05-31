@@ -86,3 +86,6 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToNewsletter.r
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMembershipTypes.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatMembershipName.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieDomainClass.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieClass.resources

@@ -223,6 +223,18 @@
     <Compile Include="Migrations\201705301149053_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201705301149053_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705310806513_UpdatMembershipName.cs" />
+    <Compile Include="Migrations\201705310806513_UpdatMembershipName.Designer.cs">
+      <DependentUpon>201705310806513_UpdatMembershipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705310939398_AddMovieDomainClass.cs" />
+    <Compile Include="Migrations\201705310939398_AddMovieDomainClass.Designer.cs">
+      <DependentUpon>201705310939398_AddMovieDomainClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705310947074_PopulateMovieClass.cs" />
+    <Compile Include="Migrations\201705310947074_PopulateMovieClass.Designer.cs">
+      <DependentUpon>201705310947074_PopulateMovieClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -296,6 +308,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\MovieDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +337,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705301149053_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201705301149053_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705310806513_UpdatMembershipName.resx">
+      <DependentUpon>201705310806513_UpdatMembershipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705310939398_AddMovieDomainClass.resx">
+      <DependentUpon>201705310939398_AddMovieDomainClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705310947074_PopulateMovieClass.resx">
+      <DependentUpon>201705310947074_PopulateMovieClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
