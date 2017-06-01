@@ -8,6 +8,7 @@ namespace Vidly.ViewModels
 {
     public class CustomersViewModel
     {
-        public List<Customer> Customers { get; set; }
+        public IEnumerable<MembershipType> MembershipTypes { get; set; } //IEnumerable becausein View we only need to iterate over items not other functionalities of list like 'add'.
+        public Customer customer { get; set; }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Web.Mvc;
 using Vidly.Models;
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
@@ -32,6 +34,17 @@ namespace Vidly.Controllers
             if (customer == null)
                 return HttpNotFound();
             return View(customer);
+        }
+
+        public ActionResult NewCustomer()
+        {
+
+            var memberships = _context.MembershipTypes.ToList();
+            var viewModel = new CustomersViewModel()
+            {
+                MembershipTypes = memberships
+            };
+            return View(viewModel);
         }
     }
 }
